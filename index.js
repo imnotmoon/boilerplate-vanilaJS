@@ -1,4 +1,3 @@
-import hello from "./src/utils/flux";
-import "./public/stylesheets/index.scss";
+import App from "./src/app.js";
 
-document.querySelector("#app").innerHTML = hello;
+const app = new App();
